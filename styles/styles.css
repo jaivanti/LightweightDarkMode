@@ -1,0 +1,21 @@
+/* General dark mode styles */
+.lightweight-dark-mode {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+.lightweight-dark-mode img,
+.lightweight-dark-mode video,
+.lightweight-dark-mode [style*="background-image"] {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+/* Google search page specific styles */
+.lightweight-dark-mode body[bgcolor="#ffffff"],
+.lightweight-dark-mode body[style*="background-color:#fff"] {
+  filter: none;
+  background-color: #1e1e1e;
+}
+
+.lightweight-dark-mode #searchform {
+  filter: none;
+}
